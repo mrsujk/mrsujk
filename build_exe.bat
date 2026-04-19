@@ -8,7 +8,7 @@ if errorlevel 1 goto :error
 python -m pip install -r requirements.txt
 if errorlevel 1 goto :error
 
-pyinstaller ^
+python -m PyInstaller ^
   --noconfirm ^
   --onefile ^
   --windowed ^
